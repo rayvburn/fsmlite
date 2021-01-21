@@ -10,12 +10,12 @@
   <url type="repository">https://github.com/tkem/fsmlite</url>
   <url type="bugtracker">https://github.com/tkem/fsmlite/issues</url>
 
-  <build_depend>cpp</build_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
   <exec_depend>cpp</exec_depend>
-
   <doc_depend>doxygen</doc_depend>
 
   <export>
-    <build_type>cmake</build_type>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

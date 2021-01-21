@@ -35,3 +35,5 @@ endif()
 
 # Add install options
 include(Install)
+
+ament_package()
